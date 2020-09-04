@@ -1,1 +1,3 @@
 ofxBvh
+ofxOsc
+ofxPubSubOsc

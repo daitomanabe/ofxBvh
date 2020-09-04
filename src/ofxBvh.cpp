@@ -1,6 +1,7 @@
 #include "ofxBvh.h"
 #include "ofMain.h"
 #include "euler.h"
+#include <glm/gtx/euler_angles.hpp>
 
 using namespace std;
 
@@ -469,13 +470,13 @@ float ofxBvh::getFrameDuration() const {
 float ofxBvh::getFrameRate() const {
     return 1 / frameTime;
 }
-unsigned int ofxBvh::getFrame() const {
+unsigned int ofxBvh::getCurrentFrame() const {
     return frameNumber;
 }
-float ofxBvh::getTime() const {
+float ofxBvh::getCurrentTime() const {
     return frameNumber * frameTime;
 }
-float ofxBvh::getPosition() const {
+float ofxBvh::getCurrentPosition() const {
     // approximate
     return float(frameNumber) / getNumFrames();
 }

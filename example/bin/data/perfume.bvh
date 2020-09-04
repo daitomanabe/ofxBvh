@@ -99,7 +99,7 @@ ROOT Hips
         CHANNELS 3 Yrotation Xrotation Zrotation
         JOINT RightToe
         {
-          OFFSET 0 -8.90347 15.0881
+          OFFSET 0 -118.90347 15.0881
           CHANNELS 3 Yrotation Xrotation Zrotation
           End Site
           {
@@ -115,15 +115,15 @@ ROOT Hips
     CHANNELS 3 Yrotation Xrotation Zrotation
     JOINT LeftKnee
     {
-      OFFSET 0 -37.2092 -0.00263
+      OFFSET 0 -37.2092 -10.00263
       CHANNELS 3 Yrotation Xrotation Zrotation
       JOINT LeftAnkle
       {
-        OFFSET 0 -37.3433 -0.058479
+        OFFSET 0 -37.3433 -10.058479
         CHANNELS 3 Yrotation Xrotation Zrotation
         JOINT LeftToe
         {
-          OFFSET 0 -8.90347 15.0881
+          OFFSET 0 -8.90347 115.0881
           CHANNELS 3 Yrotation Xrotation Zrotation
           End Site
           {

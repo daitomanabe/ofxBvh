@@ -66,7 +66,7 @@ protected:
     bool checkReady() const;
     
 public:
-    
+
     ofxBvh() {}
     ofxBvh(std::string filename);
     void save(std::string filename) const;
@@ -99,9 +99,9 @@ public:
     unsigned int getNumFrames() const; // total frame count
     float getFrameDuration() const; // in seconds
     float getFrameRate() const; // in frames per second
-    unsigned int getFrame() const;
-    float getTime() const; // current time in seconds
-    float getPosition() const; // current position 0-1
+    unsigned int getCurrentFrame() const;
+    float getCurrentTime() const; // current time in seconds
+    float getCurrentPosition() const; // current position 0-1
     
     void setFrame(unsigned int frameNumber);
     void setTime(float seconds); // set time in seconds
